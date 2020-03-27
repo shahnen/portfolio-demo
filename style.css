@@ -1,0 +1,62 @@
+body {
+    background-color: #6cafd670;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: 0; 
+    padding: 0; 
+}
+
+#navbar {
+    width: 100%;
+    height: 60px; 
+    background-color: slategray;
+    position: absolute; 
+    top: 0; 
+}
+
+.navlinks {
+
+}
+
+.listItem {
+    list-style-type: none;
+    display: inline-block;
+    float:right; 
+    margin-right: 16px;
+}
+
+.listItem a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#brand {
+    float: left;
+}
+
+.listItem a:hover {
+    color: yellow; 
+}
+
+header {
+    height: 70vh; 
+    min-height: 600px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imageBox {
+    height: 300px;
+    width: 300px;
+    background-image: url('./lydia-torrey-AovflqCt9Ws-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#greetingBox {
+    color: darkslategrey;
+    font-size: 18px;
+    
+}
